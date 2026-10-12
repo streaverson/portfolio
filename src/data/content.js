@@ -1,18 +1,11 @@
-import profilePhoto from "../assets/profile.png";
-import bookStore from "../assets/bookStore.png";
-import politicsview from "../assets/politicsview.png";
-import redflag from "../assets/redflag.png";
-import typetest from "../assets/typetest.png";
-import projectPreview from "../assets/project-placeholder.svg";
-
 /* ── Personal info ───────────────────────────────────────── */
 export const profile = {
   name: "امیرمهدی ولدخانی",
   title: "Frontend Developer | React Specialist",
   intro:
     "توسعه‌دهنده فرانت‌اند متمرکز بر خلق رابط‌های کاربری سریع و مقیاس‌پذیر. در حال ساخت تجربه‌های وب مدرن با React و مشتاق به چالش‌های حوزه استارتاپ و توسعه موتورهای بازی.",
-  photo: profilePhoto,
-  photoAlt: " امیر",
+  photo: "/profile.png",
+  photoAlt: "امیر",
 };
 
 /* ── About me ─────────── */
@@ -28,7 +21,7 @@ export const projects = [
     description:
       "یک کوییز پاسخ‌محور (Political Compass) که با React ساخته شده. شامل رندرینگ داینامیک سوالات، مدیریت وضعیت (State Management) و تحلیل نهایی بصری نتایج است.",
     technologies: ["React", "JavaScript", "Css"],
-    image: politicsview,
+    image: "/politicsview.png",
     imageAlt: "نمای پروژه Politics View",
     liveUrl: "https://politicsview.vercel.app/",
     sourceUrl: "https://github.com/streaverson/politics_view",
@@ -38,7 +31,7 @@ export const projects = [
     description:
       "یک ابزار بازیگوش برای تحلیل رفتارهای روابط عاطفی و ارائه امتیاز 'پرچم قرمز' بر اساس داده‌های ورودی کاربر.",
     technologies: ["React", "JavaScript", "Css", "openai API"],
-    image: redflag,
+    image: "/redflag.png",
     imageAlt: "نمای پروژه RedFlag",
     liveUrl: "https://isitredflag.vercel.app/",
     sourceUrl: "https://github.com/streaverson/RedFlag",
@@ -48,7 +41,7 @@ export const projects = [
     description:
       "فروشگاه آنلاین کتاب با پشتیبانی از زبان فارسی (RTL). شامل سیستم جستجو، دسته‌بندی نویسندگان و مدیریت سبد خرید به صورت کامل.",
     technologies: ["React", "JavaScript", "Tailwind", "Zustand", "Css"],
-    image: bookStore,
+    image: "/bookStore.png",
     imageAlt: "نمای فروشگاه کتاب Barg",
     liveUrl: "https://bookshoplive.vercel.app/",
     sourceUrl: "https://github.com/streaverson/book_shop",
@@ -58,7 +51,7 @@ export const projects = [
     description:
       "ابزاری برای سنجش سرعت تایپ با ۱۰ انگشت. یک پروژه متمرکز بر منطق جاوااسکریپت خالص (Vanilla JS) و دست‌کاری DOM برای اندازه‌گیری دقیق سرعت.",
     technologies: ["JavaScript", "CSS"],
-    image: typetest,
+    image: "/typetest.png",
     imageAlt: "نمای تست سرعت تایپ",
     liveUrl: "https://streaverspeedtest.vercel.app/",
     sourceUrl: "https://github.com/streaverson/typing-speedTest-vanilla",
